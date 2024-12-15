@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Info</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Player Information</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="player-info.html">Player Info</a>
+      <a href="houses.html">Houses</a>
+      <a href="farms.html">Farms</a>
+      <a href="special-buildings.html">Special Buildings</a>
+    </nav>
+  </header>
+
+  <div class="player-gallery">
+    <div class="player" data-player="player1">
+      <img class="player-skin" src="images/OPgamerv12.png" alt="Player Skin">
+      <div class="player-name">OPgamerv12</div>
+    </div>
+    <div class="player" data-player="player2">
+      <img class="player-skin" src="images/Evilner.jpg" alt="Player Skin">
+      <div class="player-name">Evilner89013</div>
+    </div>
+    <div class="player" data-player="player3">
+      <img class="player-skin" src="images/ooplay.png" alt="Player Skin">
+      <div class="player-name">opplay</div>
+    </div>
+    <div class="player" data-player="player4">
+      <img class="player-skin" src="images/omar.png" alt="Player Skin">
+      <div class="player-name">omar</div>
+    </div>
+  </div>
+
+  <!-- Player Info Popup -->
+  <div id="player-info-popup" class="popup">
+    <div class="popup-content">
+      <button id="close-popup" class="close-btn">&times;</button>
+      <h2 id="player-name"></h2>
+      <ul id="player-info"></ul>
+      <button id="exit-popup" class="exit-btn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
